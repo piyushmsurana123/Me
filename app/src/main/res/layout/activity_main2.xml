@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.rakesh.me.Main2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="INTRODUCTION"
+        android:layout_marginBottom="10dp"
+        android:background="#3b5998"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Name  :       Piyush Surana\nDOB     :      11th April 1998\nPh        :       9986520134\nE-mail  :      piyushmsurana123@gmail.com"
+android:textSize="18dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n\nSummary:\nHas a great passion and knowledge in Android. Has a keen interest in  android app development.
+
+Works well with a team and has a great zeal to learn something new everyday. Handles constructive criticism well."
+        android:textSize="18dp"/>
+
+</LinearLayout>

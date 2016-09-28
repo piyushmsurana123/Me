@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="238dp"
+        android:src="@drawable/hello"
+        android:layout_margin="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIYUSH SURANA"
+        android:textAlignment="center"
+        android:layout_marginBottom="15dp"
+        android:textSize="34dp"
+        android:textColor="#3b5998"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:background="#3b5998"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Who am I?"
+            android:onClick="intro"></Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_margin="5dp"
+            android:background="#3b5998"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:onClick="skills"></Button>
+    </LinearLayout>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:background="#3b5998"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Why android?"
+        android:onClick="andro"
+        android:layout_margin="5dp"></Button>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:background="#3b5998"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Achievements"
+        android:layout_margin="5dp"
+        android:onClick="achi"></Button>
+</LinearLayout>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:weightSum="1">
+
+<Button
+    android:layout_width="0dp"
+    android:layout_weight=".5"
+    android:background="#3b5998"
+    android:textColor="#ffffff"
+    android:layout_height="wrap_content"
+    android:text="Experience"
+    android:onClick="expe"
+    android:layout_margin="5dp"></Button>
+
+<Button
+    android:background="#3b5998"
+    android:textColor="#ffffff"
+    android:layout_width="0dp"
+    android:layout_weight=".5"
+    android:layout_height="wrap_content"
+    android:text="Dream Project"
+    android:layout_margin="5dp"
+    android:onClick="dream"></Button>
+</LinearLayout>
+
+
+
+
+</LinearLayout>
